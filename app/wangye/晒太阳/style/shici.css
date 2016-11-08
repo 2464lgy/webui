@@ -1,0 +1,42 @@
+/* CSS Document */
+body{ 	 background-image:url(../image/null-203b99d1c038a892.jpg); 
+		 background-repeat:no-repeat;
+		 background-position:800px 150px; 
+		 background-color:rgba(251,251,251,1.00); 
+		 margin:0 auto;}
+h1{ 	 color:rgba(74,205,245,1.00);
+		 line-height:80px; text-align:center;}
+div{ 	 margin:0 auto;
+		 width:400px;
+		 border:10px double rgba(245,244,46,1.00); 
+		 font-family:行书; 
+		 font-size:20px; 
+		 line-height:40px; 
+		 text-align:center;
+		 color:rgba(159,14,16,1.00);
+		 }
+#imagel{ width:400px;
+		 float:left; 
+		 margin-left:20px;}
+#imager{ width:400px;
+		 float:right;  
+		 margin-right:20px;}
+img{ 	 width:400px; 
+		 height:300px; 
+		 margin-bottom:20px;}
+ #ad{ 	 width:150px;
+ 		 height:40px; 
+		 position:fixed; 
+		 top:400px; 
+		 right:60px; 
+		 border:0; 
+		 background-color:rgba(0,138,212,0.4); 
+		 color:rgba(248,243,243,1.00);}
+	#sun{ width:150px;
+		  height:40px;
+		  position:fixed;
+		  bottom:100px;
+		  left:50px;
+		  background-color:rgba(0,138,212,0.4);
+		  color:rgba(255,255,255,1.00);
+		  border:0;}

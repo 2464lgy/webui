@@ -1,0 +1,15 @@
+/* CSS Document */
+body{ margin:0; padding:0; background-color:#FDF;}
+#top{ position:fixed; top:20%; left:92%; background-color:rgba(102,33,100,0.5); width:80px; height:15px; color:#FDFDFB; border-radius:10px; padding-left:5px; font-size:9px; padding-right:5px; margin-right:5px;}
+
+@media screen and (min-width:702px){
+		#main{ text-align:center; margin:0 auto; width:50%; background-color:#FCF; padding-bottom:20px; padding-top:20px;}
+		
+}
+@media screen and (max-width:702px){
+		#main{ text-align:center; background-color:#000; padding-bottom:20px; padding-top:20px; color:#fff;}
+		
+}
+div{ background-color:#FF9; margin:0 auto; margin-top:20px; margin-bottom:20px; width:350px;}
+img{ width:350px; height:350px;}
+
