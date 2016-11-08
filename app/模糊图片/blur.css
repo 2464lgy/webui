@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#blur-div{
+ /*   width: 800px;
+    height: 600px;*/
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#blur-image{
+    display: block;
+ /*   width: 800px;
+    height:600px;*/
+    margin: 0 auto;
+    /*滤镜   blur模糊  参数为模糊的程度 以像素为单位  毛玻璃 default0*/
+    filter:blur(10px);
+  /* !* 处理兼容性问题  为浏览器的内核*!*/
+    -webkit-filter:blur(20px);
+    -moc-filter:blur(20px);
+    -ms-filter: blur(20px);
+    -o-filter:blur(20px);
+    /*filter:grayscale  default：100%  参数0-1  灰度*/
+    /*filter:grayscale(0.8);*/
+    /*filter:sepia(1)老旧照片  黄棕色  default 100%*/
+    /*filter:saturate(3)饱和度   default：100%   hsv    hsb*/
+    /*filter:hue-rotate(90deg)    色相 色轮  default:0deg  参数为旋转角度   hsb中的h*/
+    /*filter:invert(1);  default:100% 颜色翻转*/
+  /*  filter:opacity(0.2)  default:100%   不透明度    0完全透明*/
+    /*filter:brightness(0.5)  明度   default：100%   hsb中的b*/
+   /* filter:contrast(2)   对比度  default:100%*/
+  /*  filter:drop-shadow(10px 10px 2px #aaa)   x,y,阴影程度，阴影颜色*/
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 0;
+}
+#canvas{
+   /* canvas 和blur-image叠加起来*/
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: 100;
+  /*  background: red;*/
+}
+.button{
+    display: block;
+    position: absolute;
+    z-index: 200;
+
+    width: 100px;
+    height: 30px;
+
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+
+    border-radius: 5px;
+}
+#reset-button{
+    left: 50px;
+    bottom: 20px;
+    background-color: #058;
+}
+#reset-button:hover{
+    background-color: #047;
+}
+#show-button{
+    right: 50px;
+    bottom: 20px;
+    background-color: #085;
+}
+#show-button:hover{
+    background-color: #074;
+}
