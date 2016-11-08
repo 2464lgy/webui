@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body{
+		width: 900px;
+		height: 900px;
+	}
+		.big{
+			width: 100%;
+			height: 100%;
+			background: red;
+		}
+		.small{
+			width: 40%;
+			height: 40%;
+			background: yellow;
+		}
+		table tr td{
+			width: 100px;
+			height: 100px;
+			border: 1px solid red;
+			text-align: center;
+			font-size: 50px;
+			font-family: '宋体';
+		}
+		ul{
+			width: 205px;
+			padding: 0;
+
+		}
+		ul li{
+			list-style: none;
+			float: left;
+			width: 100px;
+			height: 50px;
+			border: 1px solid red;
+			font-size: 30px;
+			text-align: center;
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="big">
+		<div class="small"></div>
+	</div> -->
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<script type="text/javascript">
+
+	function create(name,start,end,num,time){
+		var i=0;
+			 var set=setInterval(function(){
+
+		var names=document.getElementsByTagName(name);
+		var m=names.length;
+			for(var n=0;n<names.length;n++){
+			names[n].innerHTML='';
+		}
+			if(i%m<names.length){
+						names[i%m].innerHTML=start;
+					}
+				i++;
+			if(start==end){
+				clearTimeout(set);
+			}
+
+				start+=num;
+				console.log(start);
+			//	console.log(i%m);
+		},time);
+			
+	}
+
+	create('td',0,50,2,1000);
+	create('li',1,50,1,1000);
+	
+
+		
+		
+	</script>
+</body>
+</html>
