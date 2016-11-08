@@ -1,0 +1,23 @@
+/* CSS Document */
+
+@import url('headfooter.css');
+#bb{ width:800px; height:505px;	/* background-color:#CFF;*/ margin:0 auto; margin-top:15px; margin-bottom:15px;}
+#bbl{ width:220px; height:500px; border:2px solid rgba(221,0,0,1.0); float:left;}
+#bbr{ width:550px; height:350px; float:right;/* border:2px solid rgba(221,0,0,1.0);*/}
+#bblh{ width:210px; height:50px; font-size:24px; color:#fff; background-color:rgba(221,0,0,1.0); padding-left:10px; line-height:50px;}
+#bbl ul{ list-style:inside; list-style-image:url(../image/xiaotubiao.png); padding-left:10px;}
+.lx{ height:70px; line-height:30px; color:rgba(221,0,0,1.0);    border-bottom:1px solid rgba(221,0,0,1.0);}
+#rig{ position:relative;}
+#bb1 ul li ol{}
+#bbl ul li ol li{ display:inline-block; font-size:12px; line-height:20px;}
+#bbr{ height:720px; width:560px; border:2px solid rgba(221,0,0,1.0); float:right;}
+#bbrh{ width:550px; height:50px; font-size:22px; color:#fff; background-color:rgba(221,0,0,1.0); padding-left:10px; line-height:50px;}
+#bt{ height:30px; width:550px; font-size:16px; background-color:rgba(222,222,222,1.0); padding-left:10px; line-height:30px;}
+#bodt{ width:550px;/* height:590px; border:1px solid red;*/ margin:0 auto; padding:10px 12px;} 
+#bodt img{ width:155px; height:145px; padding:0; margin:0; margin-right:25px; border:none; }
+.bbrd{ width:155px; height:50px;/* background-color:#9FF;*/ margin-right:28px; float:left; background-image:url(../image/remai2.jpg); background-repeat:no-repeat; background-position:0px -10px;}
+.bbrd div{ float:right; width:95px;/* background-color:#0FF; */overflow:hidden;}
+.bbrd div span{ color:rgba(221,0,0,1.0); font-size:14px;}
+#bbrc{ height:30px; width:560px; background-color:rgba(221,0,0,1.0);}
+#bbrc ul{color:#fff; text-align:center;}
+#bbrc ul li{ display:inline-block; line-height:30px; margin-left:10px;}

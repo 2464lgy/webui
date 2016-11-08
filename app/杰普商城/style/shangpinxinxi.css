@@ -1,0 +1,26 @@
+/* CSS Document */
+@import url('headfooter.css');
+#bb{ width:800px; height:505px;	/* background-color:#CFF;*/ margin:0 auto; margin-top:15px; margin-bottom:15px;}
+#bbl{ width:220px; height:500px; border:2px solid rgba(221,0,0,1.0); float:left;}
+#bbr{ width:550px; height:350px; float:right;/* border:2px solid rgba(221,0,0,1.0);*/}
+#bblh{ width:210px; height:50px; font-size:24px; color:#fff; background-color:rgba(221,0,0,1.0); padding-left:10px; line-height:50px;}
+#bbl ul{ list-style:inside; list-style-image:url(../image/xiaotubiao.png); padding-left:10px;}
+.lx{ height:70px; line-height:30px; color:rgba(221,0,0,1.0);    border-bottom:1px solid rgba(221,0,0,1.0);}
+#rig{ position:relative;}
+#bb1 ul li ol{}
+#bbl ul li ol li{ display:inline-block; font-size:12px; line-height:20px;}
+#bbr span{ font-size:18px;}
+#bbrb{ width:550px; height:390px; border-top:2px solid rgba(221,0,0,1.0);}
+#bbrb img{ border:1px solid rgba(221,0,0,1.0); float:left; margin-top:10px; width:285px; height:285px;}
+#bbrr1{ height:55px; width:243px; border-bottom:1px solid rgba(221,0,0,1.0); float:right; margin-top:10px; padding:5px 10px; font-size:10px; position:relative;}
+
+#bbrr1 h2{ font-size:18px;}
+#bbrr1 span{ font-size:10px; font-weight:bold; position:absolute; top:30px; left:230px;}
+#bbrr2{ width:243px;/* height:200px; background-color:#9FF;*/ float:left; padding:5px 10px;}
+#bbrr2 h2{ color:rgba(221,0,0,1.0); margin-bottom:20px;}
+#bbrr2 h2 span{ color:#000;}
+#bottom{ width:548px; height:70px; border:2px solid rgba(221,0,0,1.0); float:right; position:absolute; top:610px; background-color:rgba(241,241,241,1.0);}
+#bottom span{ font-size:14px; margin-left:30px; line-height:50px;}
+#bot1{ color:#fff; background-color:rgba(221,0,0,1.0); width:536px; height:30px; font-size:18px; padding-left:10px; padding-right:2px;}
+#bot1 span{ font-size:14px; float:right; line-height:30px;}
+

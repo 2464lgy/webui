@@ -1,0 +1,43 @@
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+#wrap{ width:100%;/* height:1900px; background-color:rgba(230,249,247,1.00);*/}
+#head{ width:100%; height:100px; background-color:rgba(229,205,104,1.0); position:absolute; color:rgba(248,243,243,1.00); }
+#head a{ color:#fff;}
+#logo{ margin-left:110px;position:relative; width:200px; margin-top:30px; float:left;}
+#headlist{ float:right; margin:42px auto; margin-right:45px;}
+#headlist ul li{ display:inline-block; margin-right:45px; font-size:16px; font-weight:bold;}
+#headlist ul li a:hover{ color:rgba(163,130,76,1.0);}
+#footer{ width:100%; height:280px; background-color:rgba(93,93,93,1.0); margin-top:2390px; position:absolute; padding-top:40px; margin-bottom:40px; padding-left:100px; padding-right:100px;}
+.fd{ width:270px; height:200px;/* background-color:rgba(205,204,244,1.00); */float:left; margin-bottom:50px; margin-right:20px;}
+#banbeng{ width:1120px;/* height:20px; background-color:rgba(251,251,251,1.00); */text-align:center; color:rgba(249,248,248,1.00); font-size:14px;}
+.fh{ font-size:26px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; color:rgba(229,205,104,1.0); letter-spacing:4px; margin-bottom:10px;}
+#footer a:hover{ color:rgba(229,205,104,1.0);}
+#fc1{ font-size:14px; color:#fff; word-spacing:2px; line-height:26px;}
+#fc2 ul{ list-style-image:url(../image/right-arrow.png); list-style-position:inside;}
+#fc2 ul li a{ line-height:35px; color:#fff;}
+
+#fc3{ /*height:45px; background-color:rgba(211,133,134,1.00);*/}
+#email input{ height:40px; border:1px solid #fff; background-color:rgba(93,93,93,1.0); color:#fff; padding-left:10px;}
+#email{ float:left; margin-right:2px;}
+#but button{ height:42px; width:85px;background-color:rgba(229,205,104,1.0); color:#fff; font-size:18px;}
+#but button:hover{ background-color:#fff; color:#000; cursor:pointer;}
+
+#fc4 ul{ list-style-image:url(../image/right-arrow.png); list-style-position:inside;}
+#fc4 ul li a{ line-height:35px; color:#fff;}
+
+#bp{ margin-top:190px;  position:absolute; margin-left:78px; margin-bottom:30px; width:1200px;/* height:2200px; background-color:rgba(208,193,194,1.00); */padding-left:10px;}
+	.sh{ color:rgba(163,130,76,1.0); font-size:24px; line-height:70px;}
+	#ss img{ vertical-align:middle;}
+	#ss{ color:rgba(124,124,124,1.0);}
+	#bp p{ color:rgba(124,124,124,1.0); text-align:left; line-height:35px; word-spacing:5px; font-size:16px; padding-left:10px; padding-right:10px; margin-bottom:20px;}
+	#bp span{ line-height:60px;}
+	#bp h1{ margin:40px 0; color:rgba(229,205,104,1.0);}
+	#ri{ float:right; margin:0 10px;}
+	#lf{ float:left; margin:40px 10px;}
+	.ip{ height:60px; margin:20px 0px; width:790px; margin-top:0; font-size:18px; padding-left:10px; color:rgba(217,203,203,1.0);}
+	#bp textarea{ width:790px; height:180px; font-size:20px; color:rgba(217,203,203,1.0); margin:10px 0px; padding-left:10px; margin-bottom:20px;}
+	#tijiao{ width:90px; height:40px; background-color:rgba(136,103,65,1.0); border:none; font-size:18px; color:#fff; font-weight:bold;}
+	#tijiao:hover{ cursor:pointer; background-color:rgba(229,205,104,1.0);}
+	

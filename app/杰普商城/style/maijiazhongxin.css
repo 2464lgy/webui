@@ -1,0 +1,16 @@
+/* CSS Document */
+
+
+
+@import url('headfooter.css');
+#bb{ width:800px; height:335px;margin-top:15px; margin-bottom:15px;}
+#bbl{ width:220px; height:250px; border:2px solid rgba(221,0,0,1.0); float:left; margin-right:10px;}
+#bbl div{ width:210px; height:50px; color:#fff; background-color:rgba(221,0,0,1.0); font-size:22px; line-height:50px; padding-left:10px;}
+#bbl ul{ list-style:inside; list-style-image:url(../image/xiaotubiao.png); padding-left:10px;}
+#bbl ul li{ height:35px; line-height:35px; border-bottom:1px solid rgba(221,0,0,1.0); color:rgba(221,0,0,1.0);}
+#rig{ position:relative;}
+#rig div{ width:540px; height:250px; border:2px solid rgba(221,0,0,1.0); float:left; margin-top:10px; padding-left:20px;}
+#rig h2{ color:rgba(221,0,0,1.0); margin-top:20px; margin-bottom:10px;}
+#rig span{ font-size:14px;}
+#rig input{ margin-top:50px; width:150px; height:35px; background-color:rgba(221,0,0,1.0); color:#fff; font-size:22px; line-height:30px; border:1px solid #000;; margin-left:145px;}
+
