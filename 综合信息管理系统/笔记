@@ -1,7 +1,0 @@
-<a href="javascript:void(0)">阻止默认事件</a>     阻止跳转，火狐不支持
-$scope.data.changeTabs=function(id){
-    var sons=$scope.config.filter(function(item){
-        return item.parent==id;
-    })
-
-}
