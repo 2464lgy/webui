@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.navlist{
+			position: absolute;
+			top: 10px;
+			text-align: center;
+			width: 100%;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		.navlist a{
+			margin-left: 60px; 
+			color: #666;
+		}
+		.expand{
+			height:0px;
+			background-color: #333d4d;
+			overflow: hidden;
+			position: relative;
+			top: 30px;
+			width: 100%;
+		}
+		.expdiv{
+			height: 130px;
+			width: 500%;
+		}
+		.expdiv-list{
+			width: 20%;
+			text-align: center;
+			float: left;
+			line-height: 110px;
+			color: #fff;
+		}
+		.expand #close-btn{
+			width: 120px;
+			height: 40px;
+			background: red;
+			background: url(images/broswer_home.png) no-repeat -23px -117px;
+			position: absolute;
+			left: 50%;
+			bottom: -2px;
+			margin-left: -60px;
+			cursor: pointer; 
+		}
+	</style>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('#menulist').on('click',"a",function () {
+				if($(this).hasClass('btn-active')){
+					$('#expandZone #close-btn').click();
+					return false;
+				}
+				var curIndex=$(this).index(),mlValue='-'+curIndex*100+'%';
+				if($("#expandZone").hasClass('active')){
+					$('#expandZone .expdiv').animate({marginLeft:mlValue});
+				}
+				else{
+						$('#expandZone .expdiv').css({marginLeft:mlValue});
+				$('#expandZone').animate({height:'130px'}).addClass('active');
+				}
+
+				$(this).addClass('btn-active').siblings().removeClass('btn-active');
+
+
+				return false;
+			})
+				$('#expandZone #close-btn').on('click',function () {
+					$('#expandZone').animate({
+						height:'0px'
+					},function(){
+						$(this).removeClass('active');
+						$('#menulist .btn-active').removeClass('btn-active');
+					});
+					return false;
+				})
+		})
+	</script>
+</head>
+<body>
+	<div id="menulist" class="navlist">
+		<a href="#">首页</a><a href="#">课程大厅</a><a href="#">学习中心</a><a href="#">个人信息</a>
+		<a href="#">关于我们</a>
+	</div>
+	<div id="expandZone" class="expand">
+		<div class="expdiv">
+			<div class="expdiv-list">
+				<a href="#">慕课网主页</a>
+			</div>
+			<div class="expdiv-list">
+				<a href="#" id="A4">前端课程</a>
+				<a href="#">手机开发</a>
+				<a href="#">后台编程</a>
+			</div>
+			<div class="expdiv-list">
+				<a href="#">Javascript</a>
+				<a href="#">CSS</a>
+				<a href="#">JQuery</a>
+			</div>
+			<div class="expdiv-list">
+				个人信息：
+			</div>
+			<div class="expdiv-list">
+				公司地址：北京东路西城区德外大街10号
+			</div>
+		</div>
+		<div id="close-btn" class="closeBtn"></div>
+	</div>
+</body>
+</html>

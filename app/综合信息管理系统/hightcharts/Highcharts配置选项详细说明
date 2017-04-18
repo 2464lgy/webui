@@ -1,0 +1,12 @@
+参数配置（属性+事件）
+1chart.events.addSeries:添加数列到图表中
+2chart.events.click：整个图表的绘制区上所发生的点击事件
+3chart.events.load:图表加载事件
+4chart.events.redraw:图表重画事件，当点击图注显示和隐藏绘图时可以触发
+5chart.events.selection:当图表曲线可选择放大时，当选择图表操作时，可以触发该事件
+6chart.height:绘制图标的高度
+7chart.inverted:图表中的x，y轴替换
+8chart.polar:是否为极性图表
+9chart.reflow:当窗口大小改变时，图标宽度自适应窗口大小的改变
+10chart.renderTo:图表加载的位置，是页面上的一个DOM对象
+11

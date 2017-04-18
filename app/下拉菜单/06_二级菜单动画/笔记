@@ -1,0 +1,8 @@
+清除浮动
+.top-nav:before,.top-nav:after{
+	content:" ";
+	display:table;
+}
+.top-nav:after{
+	clear:both;
+}
